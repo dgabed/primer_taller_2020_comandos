@@ -14,6 +14,17 @@ namespace EntidadNegocio
         string direccion;
         string telefono;
 
+        private List<Curso> cursos = new List<Curso>();
+
+        public void agregarCurso(Curso c)
+        {
+            this.cursos.Add(c);
+        }
+
+        public List <Curso> GetCursos()
+        {
+            return this.cursos;
+        }
 
     }
 }
