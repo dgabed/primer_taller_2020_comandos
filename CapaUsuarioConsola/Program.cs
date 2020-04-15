@@ -10,7 +10,7 @@ namespace CapaUsuarioConsola
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hola mundo en Master");
+            Console.WriteLine("Hola mundo desde comando branch");
         }
     }
 }
