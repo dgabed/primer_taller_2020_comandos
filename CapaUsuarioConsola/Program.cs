@@ -10,7 +10,7 @@ namespace CapaUsuarioConsola
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World en Master");
+            Console.WriteLine("Hola mundo en feature_hola_mundo");
         }
     }
 }
